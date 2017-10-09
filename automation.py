@@ -178,7 +178,7 @@ def activateNewUser():
 
 def newAdvert():
 
-    try:
+    #try:
         # closePopUp
         browser.find_element_by_xpath('//*[@id="hide_homepage_video"]').click()
         time.sleep(1)
@@ -246,9 +246,6 @@ def newAdvert():
         # stateSelect
         browser.find_element_by_xpath('//*[@id="targetparam1143"]/dd/ul/li[2]/a').click()
 
-        # person
-        browser.find_element_by_xpath('//*[@id="add-person"]').send_keys('John Snow')
-
         # price
         browser.find_element_by_xpath('//*[@id="parameter-div-price"]/div[3]/div/div[1]/p[1]/input').send_keys('10')
 
@@ -276,7 +273,7 @@ def newAdvert():
         # sreenShot
         browser.save_screenshot('newAdvert.png')
         browser.quit()
-    except:
+    #except:
         browser.save_screenshot('errorNewAdvert.png')
 
 def editUser():
@@ -364,15 +361,15 @@ def loginLogout():
     except:
         browser.save_screenshot('errorLoginLogout.png')
 
-newAdvertNotLogged()
-time.sleep(10)
-registerNewUser()
-time.sleep(10)
-editUser()
-time.sleep(10)
-loginLogout()
-time.sleep(10)
-activateNewUser()
-time.sleep(10)
+#newAdvertNotLogged()
+#time.sleep(10)
+#registerNewUser()
+#time.sleep(10)
+#editUser()
+#time.sleep(10)
+#loginLogout()
+#time.sleep(10)
+#activateNewUser()
+#time.sleep(10)
 newAdvert()
 
