@@ -16,3 +16,13 @@ Install Chromedriver you should open the command line and run the next command:
 
 npm install chromedriver
 
+### Python
+Download Python from the link below:
+
+https://www.python.org/downloads/
+
+After that you should install it.
+
+### Selenium
+Install Selenium you should open the command line and run the next command:
+pip install -U selenium
