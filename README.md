@@ -5,8 +5,14 @@ The goal of this project is to automate user tests.
 
 ## Prerequisites
 ### Node
-You should download node.js from the below link and install it.
+Download Node.js from the below link and install it.
 
 https://nodejs.org/en/
 
-Note: node version for Windows
+Note: Node.js version for Windows
+
+### Chromedriver
+Install Chromedriver you should open the command line and run the next command:
+
+npm install chromedriver
+
