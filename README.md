@@ -25,4 +25,11 @@ After that you should install it.
 
 ### Selenium
 Install Selenium you should open the command line and run the next command:
+
 pip install -U selenium
+
+### Running the tests
+To run the tests you should download the file "challengeQAAutomation", open a python and run.
+
+The tests will be executed.
+
